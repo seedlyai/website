@@ -1,0 +1,232 @@
+<!DOCTYPE html><html lang="en" dir="ltr" class="2xl:text-[20px]"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="sitemap" href="/sitemap-index.xml"><link rel="shortcut icon" href="/_astro/favicon.hokQozyD.ico"><link rel="icon" type="image/svg+xml" href="/_astro/favicon.L6f3wbtH.svg"><link rel="mask-icon" href="/_astro/favicon.L6f3wbtH.svg" color="#8D46E7"><link rel="apple-touch-icon" sizes="180x180" href="/_astro/apple-touch-icon.xyJRu3aZ.png"><style is:global>
+  :root {
+    --aw-font-sans: 'Inter Variable';
+    --aw-font-serif: var(--aw-font-sans);
+    --aw-font-heading: var(--aw-font-sans);
+
+    --aw-color-primary: rgb(30 64 175);
+    --aw-color-secondary: rgb(30 58 138);
+    --aw-color-accent: rgb(109 40 217);
+
+    --aw-color-text-heading: rgb(0 0 0); 
+    --aw-color-text-default: rgb(16 16 16);
+    --aw-color-text-muted: rgb(16 16 16 / 66%);
+    --aw-color-bg-page: rgb(255 255 255);
+
+    --aw-color-bg-page-dark: rgb(3 6 32);
+
+    ::selection {background-color: lavender;}
+
+  }
+
+  .dark {
+    --aw-font-sans: 'Inter Variable';
+    --aw-font-serif: var(--aw-font-sans);
+    --aw-font-heading: var(--aw-font-sans);
+
+    --aw-color-primary: rgb(30 64 175);
+    --aw-color-secondary: rgb(30 58 138);
+    --aw-color-accent: rgb(109 40 217);
+
+    --aw-color-text-heading: rgb(0 0 0); 
+    --aw-color-text-default: rgb(229 236 246);
+    --aw-color-text-muted: rgb(229 236 246 / 66%);
+    --aw-color-bg-page: var(--aw-color-bg-page-dark);
+
+    ::selection {background-color: black; color: snow}
+
+  }
+</style><script>(function(){const defaultTheme = "system";
+
+  function applyTheme(theme) {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+    const matches = document.querySelectorAll("[data-aw-toggle-color-scheme] > input");
+
+    if (matches && matches.length) {
+      matches.forEach((elem) => {
+        elem.checked = theme !== "dark";
+      });
+    }
+  }
+
+  if ((defaultTheme && defaultTheme.endsWith(":only")) || (!localStorage.theme && defaultTheme !== "system")) {
+    applyTheme(defaultTheme.replace(":only", ""));
+  } else if (
+    localStorage.theme === "dark" ||
+    (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    applyTheme("dark");
+  } else {
+    applyTheme("light");
+  }
+})();</script><title>Seedly — AI-Powered Financial Analysis</title>
+<meta name="description" content="🚀 An AI Powered Investment Analysis Engine." />
+<meta name="robots" content="index,follow" />
+<link rel="canonical" href="https://astrowind.vercel.app" />
+<meta property="og:title" content="Seedly — AI-Powered Financial Analysis" />
+<meta property="og:description" content="🚀 An AI Powered Investment Analysis Engine." />
+<meta property="og:url" content="https://astrowind.vercel.app" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="" />
+
+<meta property="og:locale" content="en" />
+<meta property="og:site_name" content="Seedly" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@onwidget" />
+<meta name="twitter:creator" content="@onwidget" /><meta name="google-site-verification" content="orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M"><!-- Uncomment line below to activate View Transitions --><!-- <ViewTransitions fallback="swap" /> --><link rel="stylesheet" href="/_astro/terms.EDUi_oSt.css" /></head> <body class="antialiased text-default bg-page tracking-tight">   <header class="sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out" data-aw-sticky-header id="header"> <div class="absolute inset-0"></div> <div class="relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl"> <div class="flex justify-between"> <a class="flex items-center" href="/"> <div class="flex items-center space-x-2 whitespace-nowrap dark:text-white"> <img src="/src/assets/images/seedly-logo-removebg.png" alt="{SITE?.name}" style="width: auto; height: 85px;"> <span class="text-xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-gray-300">Seedly</span> </div> </a> <div class="flex items-center md:hidden"> <button class="flex flex-col h-12 w-12 rounded justify-center items-center cursor-pointer group" aria-label="Toggle Menu" data-aw-toggle-menu> <span class="sr-only">Toggle Menu</span>  <span aria-hidden="true" class="h-0.5 w-6 my-1 rounded-full bg-black dark:bg-white transition ease transform duration-200 opacity-80 group-[.expanded]:rotate-45 group-[.expanded]:translate-y-2.5"></span> <span aria-hidden="true" class="h-0.5 w-6 my-1 rounded-full bg-black dark:bg-white transition ease transform duration-200 opacity-80 group-[.expanded]:opacity-0"></span> <span aria-hidden="true" class="h-0.5 w-6 my-1 rounded-full bg-black dark:bg-white transition ease transform duration-200 opacity-80 group-[.expanded]:-rotate-45 group-[.expanded]:-translate-y-2.5"></span>  </button> </div> </div> <nav class="items-center w-full md:w-auto hidden md:flex text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:mx-5" aria-label="Main navigation"> <ul class="flex flex-col md:flex-row md:self-center w-full md:w-auto text-xl md:text-[0.9375rem] tracking-[0.01rem] font-medium">  </ul> </nav> <div class="hidden md:self-center flex md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0"> <div class="items-center flex justify-between w-full md:w-auto"> <div class="flex"> <button type="button" class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center" aria-label="Toggle between Dark and Light mode" data-aw-toggle-color-scheme><svg width="1em" height="1em" viewBox="0 0 24 24" class="w-6 h-6 md:w-5 md:h-5 md:inline-block" data-icon="tabler:sun">  <symbol id="ai:tabler:sun"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7"/></symbol> <use  xlink:href="#ai:tabler:sun"></use> </svg></button>  </div>  </div> </div> </div> </header>  <main>   <section class="relative md:-mt-[76px] not-prose"> <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div> <div class="relative max-w-7xl mx-auto px-4 sm:px-6"> <div class="pt-0 md:pt-[76px] pointer-events-none"></div> <div class="py-12 md:py-20"> <div class="text-center pb-10 md:pb-16 max-w-5xl mx-auto">  <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
+Revolutionize Financial Analysis with <span class="text-accent dark:text-white highlight">Seedly AI Co-pilot</span> </h1> <div class="max-w-3xl mx-auto"> <p class="text-xl text-muted mb-6 dark:text-slate-300"> <span class="hidden sm:inline">
+Introducing <span class="font-semibold">Seedly</span>, the AI-driven co-pilot transforming due diligence and investment analysis for financial professionals.</span> <span class="block mb-1 sm:hidden font-bold text-blue-600">Seedly: AI-Powered Financial Analysis.</span>
+Perfect for Analysts, VC & PE Firms, and Financial Institutions.
+</p> <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4"> <div class="flex w-full sm:w-auto"> <a class="btn-primary w-full sm:mb-0" href="#features">Explore Seedly</a> </div><div class="flex w-full sm:w-auto"> <a class="btn-secondary w-full sm:mb-0" href="https://airtable.com/appeSkFnwiyqhC6RP/pag7ovGf1fafULRgE/form">Join Waitlist</a> </div> </div> </div>  </div> <div> <div class="relative m-auto max-w-5xl"> <img src="/_astro/hero.9Pvf-M2C.png" width="1024" height="576" srcset="/_astro/hero.9Pvf-M2C_Z2dXgO.webp 400w, /_astro/hero.9Pvf-M2C_Z1KbFua.webp 768w, /_astro/hero.9Pvf-M2C_Z29EdrS.webp 1024w, /_astro/hero.9Pvf-M2C_Z1U0PI.webp 2040w, /_astro/hero.9Pvf-M2C_Z1nsjd.webp 2048w" sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px" style="object-fit: cover; object-position: center; max-width: 1024px; max-height: 576px; aspect-ratio: 1.7777777777777777; width: 100%;" class="mx-auto rounded-md w-full" loading="eager" alt="AstroWind Hero Image" decoding="async"> </div> </div> </div> </div> </section>  <section class="relative not-prose scroll-mt-[72px]" id="features"> <div class="absolute inset-0 pointer-events-none -z-[1]" aria-hidden="true">  <div class="absolute inset-0">  </div>  </div> <div class="relative mx-auto px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default max-w-5xl">  <div class="mb-8 md:mx-auto md:mb-12 text-center max-w-3xl"><p class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase">Features</p><h2 class="font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl md:text-4xl">Why Seedly Stands Out</h2><p class="mt-4 text-muted text-xl">A cutting-edge tool that redefines the landscape of financial analysis and investment due diligence.</p></div> <div class="grid mx-auto gap-8 md:gap-y-12 sm:grid-cols-2"><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:brain">  <symbol id="ai:tabler:brain"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8"/><path d="M17.5 16a3.5 3.5 0 0 0 0-7H17"/><path d="M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7"/><path d="M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10"/></g></symbol> <use  xlink:href="#ai:tabler:brain"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Intelligent Data Analysis</h3><p class="mt-3 text-muted">Harness AI to analyze and interpret complex financial data, offering actionable insights and uncovering hidden opportunities.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:chart-line">  <symbol id="ai:tabler:chart-line"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 19h16M4 15l4-6l4 2l4-5l4 4"/></symbol> <use  xlink:href="#ai:tabler:chart-line"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Real-Time Market Insights</h3><p class="mt-3 text-muted">Leverage up-to-the-minute market data from diverse sources, including social media and private databases, for comprehensive analysis.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:template">  <symbol id="ai:tabler:template"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm0 8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm10-1h6m-6 4h6m-6 4h6"/></symbol> <use  xlink:href="#ai:tabler:template"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Customized Investment Blueprint</h3><p class="mt-3 text-muted">Receive tailored insights and analysis, aligned with your firm’s unique investment criteria and thesis.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:layers-linked">  <symbol id="ai:tabler:layers-linked"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 8.268A2 2 0 0 1 20 10v8a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h3"/><path d="M5 15.734A2 2 0 0 1 4 14V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3"/></g></symbol> <use  xlink:href="#ai:tabler:layers-linked"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Interactive Data Rooms</h3><p class="mt-3 text-muted">Transform traditional data rooms into dynamic, interactive environments for more efficient and in-depth analysis.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:shield-check">  <symbol id="ai:tabler:shield-check"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.46 20.846A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3a12 12 0 0 0 8.5 3a12 12 0 0 1-.09 7.06M15 19l2 2l4-4"/></symbol> <use  xlink:href="#ai:tabler:shield-check"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Advanced Data Consistency Checks</h3><p class="mt-3 text-muted">Automatically detect and highlight data inconsistencies, ensuring accuracy and reliability in your analysis.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:device-desktop-analytics">  <symbol id="ai:tabler:device-desktop-analytics"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm4 15h10m-8-4v4m6-4v4m-6-8V8m3 4v-1m3 1v-2m-3 2v-1"/></symbol> <use  xlink:href="#ai:tabler:device-desktop-analytics"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Seamless Integration</h3><p class="mt-3 text-muted">Easily integrate with existing tools and platforms, enhancing your workflow without disrupting it.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:layers-linked">   <use  xlink:href="#ai:tabler:layers-linked"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Fast-Track Diligence</h3><p class="mt-3 text-muted">Accelerate the investment decision process by harnessing AI to analyze and synthesize vast amounts of data quickly.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:brain">   <use  xlink:href="#ai:tabler:brain"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Critically Reasoned Insights</h3><p class="mt-3 text-muted">Employ advanced AI to provide well-reasoned, contextually relevant insights, bridging quantitative data with qualitative analysis.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:writing">  <symbol id="ai:tabler:writing"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2l2-2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6"/></symbol> <use  xlink:href="#ai:tabler:writing"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Customized Investment Memos</h3><p class="mt-3 text-muted">Generate tailored investment memos, aligning with each firm’s unique investment thesis and criteria.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:chart-line">   <use  xlink:href="#ai:tabler:chart-line"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Comprehensive Market Intelligence</h3><p class="mt-3 text-muted">Integrate insights from diverse public sources including social media and newsletters for a holistic market view.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:refresh">  <symbol id="ai:tabler:refresh"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"/></symbol> <use  xlink:href="#ai:tabler:refresh"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">User-Feedback Learning</h3><p class="mt-3 text-muted">Continuously improve and adapt the AI model based on user feedback, enhancing the precision of insights.</p></div></div></div><div><div class="flex flex-row max-w-md"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0" data-icon="tabler:eye">  <symbol id="ai:tabler:eye"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0"/><path d="M21 12c-2.4 4-5.4 6-9 6c-3.6 0-6.6-2-9-6c2.4-4 5.4-6 9-6c3.6 0 6.6 2 9 6"/></g></symbol> <use  xlink:href="#ai:tabler:eye"></use> </svg></div><div class="mt-0.5"><h3 class="text-xl font-bold md:text-[1.3rem]">Transparent Analytical Process</h3><p class="mt-3 text-muted">Present analysis in an auditable manner, allowing users to understand and trust the AI-driven conclusions.</p></div></div></div></div>  </div> </section>  <section class="relative not-prose scroll-mt-[72px]"> <div class="absolute inset-0 pointer-events-none -z-[1]" aria-hidden="true">  <div class="absolute inset-0">  </div>  </div> <div class="relative px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default max-w-7xl mx-auto">  <div class="mb-8 md:mx-auto md:mb-12 text-center max-w-xl sm:mx-auto lg:max-w-2xl"><p class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase">Product Description</p><h2 class="leading-tighter text-heading text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">Seedly's AI-Powered Capabilities</h2></div> <div class="mx-auto max-w-7xl p-4 md:px-8"> <div class="md:flex md:flex-row-reverse md:gap-16"> <div class="md:basis-1/2 self-center"> <div class="mb-12 text-lg dark:text-slate-400"> <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Revolutionizing Investment Analysis</h3>
+Empower your financial decisions with AI-driven insights.
+</div>  <div class="grid mx-auto gap-8 gap-y-4 md:gap-y-8"><div><div class="flex flex-row max-w-none"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="mr-2 rtl:mr-0 rtl:ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1" data-icon="tabler:check">  <symbol id="ai:tabler:check"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 12l5 5L20 7"/></symbol> <use  xlink:href="#ai:tabler:check"></use> </svg></div><div class="mt-0.5"><h3 class="text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2">Advanced Data Room Contextualization</h3><p class="mt-3 text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">Contextualizes investment data rooms using market intelligence from diverse sources, improving the speed and accuracy of investment decisions.</p></div></div></div><div><div class="flex flex-row max-w-none"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="mr-2 rtl:mr-0 rtl:ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1" data-icon="tabler:check">   <use  xlink:href="#ai:tabler:check"></use> </svg></div><div class="mt-0.5"><h3 class="text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2">Quantitative Knowledge Gap Identification</h3><p class="mt-3 text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">Flags potential knowledge gaps in the data, allowing for more focused and efficient research and analysis.</p></div></div></div><div><div class="flex flex-row max-w-none"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="mr-2 rtl:mr-0 rtl:ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1" data-icon="tabler:check">   <use  xlink:href="#ai:tabler:check"></use> </svg></div><div class="mt-0.5"><h3 class="text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2">Tailored Investment Memos</h3><p class="mt-3 text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">Generates custom investment memos based on firm-specific investment theses, streamlining the diligence reporting process.</p></div></div></div></div> </div> <div aria-hidden="true" class="mt-10 md:mt-0 md:basis-1/2"> <div class="relative m-auto max-w-4xl"> <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=2070&#38;q=80" width="500" height="500" srcset="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=400&#38;q=80&#38;h=400 400w, https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=768&#38;q=80&#38;h=768 768w" sizes="(max-width: 768px) 100vw, 432px" style="object-fit: cover; object-position: center; width: 100%; height: auto; aspect-ratio: 1;" class="mx-auto w-full rounded-lg bg-gray-500 shadow-lg" alt="Seedly Dashboard" loading="lazy" decoding="async"> </div> </div> </div> </div>  </div> </section>  <section class="relative not-prose scroll-mt-[72px]"> <div class="absolute inset-0 pointer-events-none -z-[1]" aria-hidden="true">  <div class="absolute inset-0">  </div>  </div> <div class="relative px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default max-w-7xl mx-auto">   <div class="mx-auto max-w-7xl p-4 md:px-8"> <div class="md:flex  md:gap-16"> <div class="md:basis-1/2 self-center"> <div class="mb-12 text-lg dark:text-slate-400">Streamline and enhance your financial analysis with Seedly.</div>  <div class="grid mx-auto gap-8 gap-y-4 md:gap-y-8"><div><div class="flex flex-row max-w-none"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="mr-2 rtl:mr-0 rtl:ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1" data-icon="tabler:check">   <use  xlink:href="#ai:tabler:check"></use> </svg></div><div class="mt-0.5"><h3 class="text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2">Seamless Workflow Integration</h3><p class="mt-3 text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">Easily integrates with existing tools and platforms, ensuring a smooth transition and enhancing existing workflows.</p></div></div></div><div><div class="flex flex-row max-w-none"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="mr-2 rtl:mr-0 rtl:ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1" data-icon="tabler:check">   <use  xlink:href="#ai:tabler:check"></use> </svg></div><div class="mt-0.5"><h3 class="text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2">Data Consistency Checks</h3><p class="mt-3 text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">Automatically checks for data consistency, ensuring the reliability and accuracy of financial analysis.</p></div></div></div><div><div class="flex flex-row max-w-none"><div class="flex justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="mr-2 rtl:mr-0 rtl:ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1" data-icon="tabler:check">   <use  xlink:href="#ai:tabler:check"></use> </svg></div><div class="mt-0.5"><h3 class="text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2">Interactive Analysis Environment</h3><p class="mt-3 text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">Transforms data rooms into interactive environments for dynamic, in-depth financial analysis.</p></div></div></div></div> </div> <div aria-hidden="true" class="mt-10 md:mt-0 md:basis-1/2"> <div class="relative m-auto max-w-4xl"> <img src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=2194&#38;q=80" width="500" height="500" srcset="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=400&#38;q=80&#38;h=400 400w, https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=768&#38;q=80&#38;h=768 768w" sizes="(max-width: 768px) 100vw, 432px" style="object-fit: cover; object-position: center; width: 100%; height: auto; aspect-ratio: 1;" class="mx-auto w-full rounded-lg bg-gray-500 shadow-lg" alt="Blueprint Image" loading="lazy" decoding="async"> </div> </div> </div> </div>  </div> </section>  <section class="relative not-prose scroll-mt-[72px]"> <div class="absolute inset-0 pointer-events-none -z-[1]" aria-hidden="true">  <div class="absolute inset-0">  </div>  </div> <div class="relative mx-auto px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default max-w-5xl">  <div class="flex flex-col gap-8 md:gap-12 md:flex-row-reverse md:flex-row"> <div class="md:py-4 md:self-center md:basis-1/2"> <div class="mb-8 md:mx-auto md:mb-12 text-left rtl:text-right"><h2 class="font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl lg:text-4xl">How Seedly Works for Investment Analysis</h2></div> <div class=""><div class="flex"><div class="flex flex-col items-center mr-4 rtl:mr-0 rtl:ml-4"><div><div class="flex items-center justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="w-10 h-10 p-2 rounded-full border-2 text-primary dark:text-slate-200 border-primary dark:border-blue-700" data-icon="tabler:database">  <symbol id="ai:tabler:database"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 6a8 3 0 1 0 16 0A8 3 0 1 0 4 6"/><path d="M4 6v6a8 3 0 0 0 16 0V6"/><path d="M4 12v6a8 3 0 0 0 16 0v-6"/></g></symbol> <use  xlink:href="#ai:tabler:database"></use> </svg></div></div><div class="w-px h-full bg-black/10 dark:bg-slate-400/50"></div></div><div class="pt-1 pb-8"><p class="text-xl font-bold">Step 1: Data Aggregation</p><p class="text-muted mt-2">Gather and compile data from various public and private sources, including social media, newsletters, and internal databases.</p></div></div><div class="flex"><div class="flex flex-col items-center mr-4 rtl:mr-0 rtl:ml-4"><div><div class="flex items-center justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="w-10 h-10 p-2 rounded-full border-2 text-primary dark:text-slate-200 border-primary dark:border-blue-700" data-icon="tabler:brain">   <use  xlink:href="#ai:tabler:brain"></use> </svg></div></div><div class="w-px h-full bg-black/10 dark:bg-slate-400/50"></div></div><div class="pt-1 pb-8"><p class="text-xl font-bold">Step 2: Intelligent Analysis</p><p class="text-muted mt-2">Use AI algorithms to analyze data, identify patterns, and flag potential gaps in the information.</p></div></div><div class="flex"><div class="flex flex-col items-center mr-4 rtl:mr-0 rtl:ml-4"><div><div class="flex items-center justify-center"><svg width="1em" height="1em" viewBox="0 0 24 24" class="w-10 h-10 p-2 rounded-full border-2 text-primary dark:text-slate-200 border-primary dark:border-blue-700" data-icon="tabler:report">  <symbol id="ai:tabler:report"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5.697M18 14v4h4m-4-7V7a2 2 0 0 0-2-2h-2"/><path d="M8 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2zm6 13a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-6-7h4m-4 4h3"/></g></symbol> <use  xlink:href="#ai:tabler:report"></use> </svg></div></div></div><div class="pt-1 "><p class="text-xl font-bold">Step 3: Customized Reporting</p><p class="text-muted mt-2">Generate tailored investment memos and reports, aligned with specific investment criteria and theses.</p></div></div></div> </div> <div class="relative md:basis-1/2"> <img src="https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=987&#38;q=80" width="432" height="768" srcset="https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=400&#38;q=80&#38;h=711 400w, https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&#38;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#38;auto=format&#38;fit=crop&#38;w=768&#38;q=80&#38;h=1365 768w" sizes="(max-width: 768px) 100vw, 432px" style="object-fit: cover; object-position: center; max-width: 100%; max-height: 100%;" class="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700" alt="Steps image" loading="lazy" decoding="async"> </div> </div>  </div> </section>  <section class="relative not-prose scroll-mt-[72px]"> <div class="absolute inset-0 pointer-events-none -z-[1]" aria-hidden="true">   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>   </div> <div class="relative px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default max-w-7xl mx-auto">  <div class="mb-8 md:mx-auto md:mb-12 text-center max-w-3xl"><p class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase">Solutions</p><h2 class="font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl md:text-4xl">Pain Points Seedly Addresses</h2><p class="mt-4 text-muted text-xl">Solving Key Challenges in VC/PE Analysis</p></div> <div class="grid sm:gap-y-8 lg:grid-cols-3 sm:grid-cols-2 gap-4 md:gap-6"><div class="relative flex flex-col rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"><svg width="1em" height="1em" viewBox="0 0 48 48" class="w-12 h-12 mb-6 text-primary" data-icon="flat-color-icons:gallery">  <symbol id="ai:flat-color-icons:gallery"><path fill="#E65100" d="M41 42H13c-2.2 0-4-1.8-4-4V18c0-2.2 1.8-4 4-4h28c2.2 0 4 1.8 4 4v20c0 2.2-1.8 4-4 4z"/><path fill="#F57C00" d="M35 36H7c-2.2 0-4-1.8-4-4V12c0-2.2 1.8-4 4-4h28c2.2 0 4 1.8 4 4v20c0 2.2-1.8 4-4 4z"/><circle cx="30" cy="16" r="3" fill="#FFF9C4"/><path fill="#942A09" d="M17 17.9L8 31h18z"/><path fill="#BF360C" d="M28 23.5L22 31h12z"/></symbol> <use  xlink:href="#ai:flat-color-icons:gallery"></use> </svg><div class="text-xl font-bold">Time-Intensive Research</div><p class="text-muted mt-2">Dramatically reduces the time required for thorough due diligence.</p></div><div class="relative flex flex-col rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"><svg width="1em" height="1em" viewBox="0 0 48 48" class="w-12 h-12 mb-6 text-primary" data-icon="flat-color-icons:database">  <symbol id="ai:flat-color-icons:database"><path fill="#D1C4E9" d="M38 7H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 12H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2zm0 12H10c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2z"/></symbol> <use  xlink:href="#ai:flat-color-icons:database"></use> </svg><div class="text-xl font-bold">Data Fragmentation</div><p class="text-muted mt-2">Consolidates fragmented data sources for a comprehensive, unified analysis.</p></div><div class="relative flex flex-col rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"><svg width="1em" height="1em" viewBox="0 0 48 48" class="w-12 h-12 mb-6 text-primary" data-icon="flat-color-icons:business-contact">  <symbol id="ai:flat-color-icons:business-contact"><path fill="#673AB7" d="M40 7H8c-2.2 0-4 1.8-4 4v26c0 2.2 1.8 4 4 4h5v-1.3c-.6-.3-1-1-1-1.7c0-1.1.9-2 2-2s2 .9 2 2c0 .7-.4 1.4-1 1.7V41h18v-1.3c-.6-.3-1-1-1-1.7c0-1.1.9-2 2-2s2 .9 2 2c0 .7-.4 1.4-1 1.7V41h5c2.2 0 4-1.8 4-4V11c0-2.2-1.8-4-4-4z"/><g fill="#D1C4E9"><circle cx="24" cy="18" r="4"/><path d="M31 28s-1.9-4-7-4s-7 4-7 4v2h14v-2z"/></g></symbol> <use  xlink:href="#ai:flat-color-icons:business-contact"></use> </svg><div class="text-xl font-bold">Manual Data Verification</div><p class="text-muted mt-2">Automates data consistency checks, reducing manual verification workload.</p></div><div class="relative flex flex-col rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"><svg width="1em" height="1em" viewBox="0 0 48 48" class="w-12 h-12 mb-6 text-primary" data-icon="flat-color-icons:approval">  <symbol id="ai:flat-color-icons:approval"><path fill="#8BC34A" d="m24 3l4.7 3.6l5.8-.8l2.2 5.5l5.5 2.2l-.8 5.8L45 24l-3.6 4.7l.8 5.8l-5.5 2.2l-2.2 5.5l-5.8-.8L24 45l-4.7-3.6l-5.8.8l-2.2-5.5l-5.5-2.2l.8-5.8L3 24l3.6-4.7l-.8-5.8l5.5-2.2l2.2-5.5l5.8.8z"/><path fill="#CCFF90" d="M34.6 14.6L21 28.2l-5.6-5.6l-2.8 2.8l8.4 8.4l16.4-16.4z"/></symbol> <use  xlink:href="#ai:flat-color-icons:approval"></use> </svg><div class="text-xl font-bold">Complex Data Interpretation</div><p class="text-muted mt-2">Simplifies the interpretation of complex data sets with AI-driven insights.</p></div><div class="relative flex flex-col rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"><svg width="1em" height="1em" viewBox="0 0 48 48" class="w-12 h-12 mb-6 text-primary" data-icon="flat-color-icons:document">  <symbol id="ai:flat-color-icons:document"><path fill="#90CAF9" d="M40 45H8V3h22l10 10z"/><path fill="#E1F5FE" d="M38.5 14H29V4.5z"/><path fill="#1976D2" d="M16 21h17v2H16zm0 4h13v2H16zm0 4h17v2H16zm0 4h13v2H16z"/></symbol> <use  xlink:href="#ai:flat-color-icons:document"></use> </svg><div class="text-xl font-bold">Inefficient Reporting</div><p class="text-muted mt-2">Streamlines the reporting process with automated, tailored investment memos.</p></div><div class="relative flex flex-col rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6"><svg width="1em" height="1em" viewBox="0 0 48 48" class="w-12 h-12 mb-6 text-primary" data-icon="flat-color-icons:template">  <symbol id="ai:flat-color-icons:template"><path fill="#BBDEFB" d="M4 7h40v34H4z"/><path fill="#3F51B5" d="M9 12h30v5H9z"/><path fill="#2196F3" d="M9 21h13v16H9zm17 0h13v16H26z"/></symbol> <use  xlink:href="#ai:flat-color-icons:template"></use> </svg><div class="text-xl font-bold">Lack of Customization</div><p class="text-muted mt-2">Offers high levels of customization to align with specific investment strategies.</p></div></div>  </div> </section>  <section class="relative not-prose scroll-mt-[72px]"> <div class="absolute inset-0 pointer-events-none -z-[1]" aria-hidden="true">  <div class="absolute inset-0">  </div>  </div> <div class="relative px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default max-w-6xl mx-auto">   <div class="flex flex-wrap justify-center -m-4 text-center"> <div class="p-4 md:w-1/4 sm:w-1/2 w-full min-w-[220px] text-center md:border-r md:last:border-none dark:md:border-slate-500">  <div class="font-heading text-primary text-[2.6rem] font-bold dark:text-white lg:text-5xl xl:text-6xl"> 40 </div> <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base"> Funds Interested </div> </div><div class="p-4 md:w-1/4 sm:w-1/2 w-full min-w-[220px] text-center md:border-r md:last:border-none dark:md:border-slate-500">  <div class="font-heading text-primary text-[2.6rem] font-bold dark:text-white lg:text-5xl xl:text-6xl"> 10 </div> <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base"> User Interviews </div> </div><div class="p-4 md:w-1/4 sm:w-1/2 w-full min-w-[220px] text-center md:border-r md:last:border-none dark:md:border-slate-500">  <div class="font-heading text-primary text-[2.6rem] font-bold dark:text-white lg:text-5xl xl:text-6xl"> 40 </div> <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base"> Pilot Users </div> </div><div class="p-4 md:w-1/4 sm:w-1/2 w-full min-w-[220px] text-center md:border-r md:last:border-none dark:md:border-slate-500">  <div class="font-heading text-primary text-[2.6rem] font-bold dark:text-white lg:text-5xl xl:text-6xl"> 2 Weeks </div> <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base"> and counting </div> </div> </div>  </div> </section>  </main>  <footer class="relative border-t border-gray-200 dark:border-slate-800 not-prose"> <!-- ...other codes... --> <div class="relative max-w-7xl mx-auto px-4 sm:px-6 dark:text-slate-300"> <!-- Flex container for the footer content --> <div class="flex justify-between items-center py-6 md:py-8"> <!-- "Seedly" name/button on the left --> <div> <a class="inline-block font-bold text-xl" href="/">Seedly</a> <!-- Place any other links you want next to the Seedly name below --> <!-- ... --> </div> <!-- Social media links on the right --> <ul class="flex items-center space-x-4"> <li> <a class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center" aria-label="X" href="https://twitter.com/seedlyengine"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="w-5 h-5" data-icon="tabler:brand-x">  <symbol id="ai:tabler:brand-x"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 4l11.733 16H20L8.267 4zm0 16l6.768-6.768m2.46-2.46L20 4"/></symbol> <use  xlink:href="#ai:tabler:brand-x"></use> </svg>  </a> </li><li> <a class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center" aria-label="LinkedIn" href="https://github.com/seedlyai"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="w-5 h-5" data-icon="tabler:brand-linkedin">  <symbol id="ai:tabler:brand-linkedin"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm4 5v5m0-8v.01M12 16v-5"/><path d="M16 16v-3a2 2 0 0 0-4 0"/></g></symbol> <use  xlink:href="#ai:tabler:brand-linkedin"></use> </svg>  </a> </li> </ul> </div> </div> </footer>   <script>(function(){const defaultTheme = "system";
+
+  if (window.basic_script) {
+    return;
+  }
+
+  window.basic_script = true;
+
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }
+
+  const initTheme = function () {
+    if ((defaultTheme && defaultTheme.endsWith(':only')) || (!localStorage.theme && defaultTheme !== 'system')) {
+      applyTheme(defaultTheme.replace(':only', ''));
+    } else if (
+      localStorage.theme === 'dark' ||
+      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+      applyTheme('dark');
+    } else {
+      applyTheme('light');
+    }
+  };
+  initTheme();
+
+  function attachEvent(selector, event, fn) {
+    const matches = typeof selector === 'string' ? document.querySelectorAll(selector) : selector;
+    if (matches && matches.length) {
+      matches.forEach((elem) => {
+        elem.addEventListener(event, (e) => fn(e, elem), false);
+      });
+    }
+  }
+
+  const onLoad = function () {
+    let lastKnownScrollPosition = window.scrollY;
+    let ticking = true;
+
+    attachEvent('#header nav', 'click', function () {
+      document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
+      document.body.classList.remove('overflow-hidden');
+      document.getElementById('header')?.classList.remove('h-screen');
+      document.getElementById('header')?.classList.remove('expanded');
+      document.getElementById('header')?.classList.remove('bg-page');
+      document.querySelector('#header nav')?.classList.add('hidden');
+      document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
+    });
+
+    attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
+      elem.classList.toggle('expanded');
+      document.body.classList.toggle('overflow-hidden');
+      document.getElementById('header')?.classList.toggle('h-screen');
+      document.getElementById('header')?.classList.toggle('expanded');
+      document.getElementById('header')?.classList.toggle('bg-page');
+      document.querySelector('#header nav')?.classList.toggle('hidden');
+      document.querySelector('#header > div > div:last-child')?.classList.toggle('hidden');
+    });
+
+    attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
+      if (defaultTheme.endsWith(':only')) {
+        return;
+      }
+      document.documentElement.classList.toggle('dark');
+      localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+    });
+
+    attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
+      const network = elem.getAttribute('data-aw-social-share');
+      const url = encodeURIComponent(elem.getAttribute('data-aw-url'));
+      const text = encodeURIComponent(elem.getAttribute('data-aw-text'));
+
+      let href;
+      switch (network) {
+        case 'facebook':
+          href = `https://www.facebook.com/sharer.php?u=${url}`;
+          break;
+        case 'twitter':
+          href = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+          break;
+        case 'linkedin':
+          href = `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${text}`;
+          break;
+        case 'whatsapp':
+          href = `https://wa.me/?text=${text}%20${url}`;
+          break;
+        case 'mail':
+          href = `mailto:?subject=%22${text}%22&body=${text}%20${url}`;
+          break;
+
+        default:
+          return;
+      }
+
+      const newlink = document.createElement('a');
+      newlink.target = '_blank';
+      newlink.href = href;
+      newlink.click();
+    });
+
+    function appyHeaderStylesOnScroll() {
+      const header = document.querySelector('#header[data-aw-sticky-header]');
+      if (lastKnownScrollPosition > 60 && !header.classList.contains('scroll')) {
+        document.getElementById('header').classList.add('scroll');
+      } else if (lastKnownScrollPosition <= 60 && header.classList.contains('scroll')) {
+        document.getElementById('header').classList.remove('scroll');
+      }
+      ticking = false;
+    }
+    appyHeaderStylesOnScroll();
+
+    attachEvent([document], 'scroll', function () {
+      lastKnownScrollPosition = window.scrollY;
+
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          appyHeaderStylesOnScroll();
+        });
+        ticking = true;
+      }
+    });
+  };
+  const onPageShow = function () {
+    document.documentElement.classList.add('motion-safe:scroll-smooth');
+    const elem = document.querySelector('[data-aw-toggle-menu]');
+    if (elem) {
+      elem.classList.remove('expanded');
+    }
+    document.body.classList.remove('overflow-hidden');
+    document.getElementById('header')?.classList.remove('h-screen');
+    document.getElementById('header')?.classList.remove('expanded');
+    document.querySelector('#header nav')?.classList.add('hidden');
+  };
+
+  window.onload = onLoad;
+  window.onpageshow = onPageShow;
+
+  document.addEventListener('astro:after-swap', () => {
+    initTheme();
+    onLoad();
+    onPageShow();
+  });
+})();</script>  </body> </html>
