@@ -1,0 +1,267 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import Stats from '~/components/widgets/Stats.astro';
+
+const metadata = {
+  title: 'Seedly — AI-Powered Financial Analysis',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero
+    actions={[
+      { variant: 'primary', text: 'Explore Seedly', href: '#features' },
+      { text: 'Join Waitlist', href: 'https://airtable.com/appeSkFnwiyqhC6RP/pag7ovGf1fafULRgE/form' },
+    ]}
+    image={{ src: '~/assets/images/hero.png', alt: 'AstroWind Hero Image' }}
+  >
+    <Fragment slot="title">
+      Revolutionize Financial Analysis with <span class="text-accent dark:text-white highlight">Seedly AI Co-pilot</span>
+    </Fragment>
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Introducing <span class="font-semibold">Seedly</span>, the AI-driven co-pilot transforming due diligence and investment analysis for financial professionals.</span
+      >
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">Seedly: AI-Powered Financial Analysis.</span>
+      Perfect for Analysts, VC & PE Firms, and Financial Institutions.
+    </Fragment>
+  </Hero>
+
+  <!-- Features Widget *************** -->
+  <Features
+    id="features"
+    tagline="Features"
+    title="Why Seedly Stands Out"
+    subtitle="A cutting-edge tool that redefines the landscape of financial analysis and investment due diligence."
+    items={[
+      {
+        title: 'Intelligent Data Analysis',
+        description:
+          'Harness AI to analyze and interpret complex financial data, offering actionable insights and uncovering hidden opportunities.',
+        icon: 'tabler:brain',
+      },
+      {
+        title: 'Real-Time Market Insights',
+        description:
+          'Leverage up-to-the-minute market data from diverse sources, including social media and private databases, for comprehensive analysis.',
+        icon: 'tabler:chart-line',
+      },
+      {
+        title: 'Customized Investment Blueprint',
+        description:
+          'Receive tailored insights and analysis, aligned with your firm’s unique investment criteria and thesis.',
+        icon: 'tabler:template',
+      },
+      {
+      title: 'Interactive Data Rooms',
+      description:
+        'Transform traditional data rooms into dynamic, interactive environments for more efficient and in-depth analysis.',
+      icon: 'tabler:layers-linked',
+    },
+    {
+      title: 'Advanced Data Consistency Checks',
+      description:
+        'Automatically detect and highlight data inconsistencies, ensuring accuracy and reliability in your analysis.',
+      icon: 'tabler:shield-check',
+    },
+    {
+      title: 'Seamless Integration',
+      description:
+        'Easily integrate with existing tools and platforms, enhancing your workflow without disrupting it.',
+      icon: 'tabler:device-desktop-analytics',
+    },
+    {
+      title: 'Fast-Track Diligence',
+      description:
+        'Accelerate the investment decision process by harnessing AI to analyze and synthesize vast amounts of data quickly.',
+      icon: 'tabler:layers-linked',
+    },
+    {
+      title: 'Critically Reasoned Insights',
+      description:
+        'Employ advanced AI to provide well-reasoned, contextually relevant insights, bridging quantitative data with qualitative analysis.',
+      icon: 'tabler:brain',
+    },
+    {
+      title: 'Customized Investment Memos',
+      description:
+        'Generate tailored investment memos, aligning with each firm’s unique investment thesis and criteria.',
+      icon: 'tabler:writing',
+    },
+    {
+      title: 'Comprehensive Market Intelligence',
+      description:
+        'Integrate insights from diverse public sources including social media and newsletters for a holistic market view.',
+      icon: 'tabler:chart-line',
+    },
+    {
+      title: 'User-Feedback Learning',
+      description:
+        'Continuously improve and adapt the AI model based on user feedback, enhancing the precision of insights.',
+      icon: 'tabler:refresh',
+    },
+    {
+      title: 'Transparent Analytical Process',
+      description:
+        'Present analysis in an auditable manner, allowing users to understand and trust the AI-driven conclusions.',
+      icon: 'tabler:eye',
+    },
+    ]}
+  />
+
+  <!-- Content Widget 1 **************** -->
+  <Content
+    isReversed
+    tagline="Product Description"
+    title="Seedly's AI-Powered Capabilities"
+    items={[
+      {
+        title: 'Advanced Data Room Contextualization',
+        description:
+          'Contextualizes investment data rooms using market intelligence from diverse sources, improving the speed and accuracy of investment decisions.',
+      },
+      {
+        title: 'Quantitative Knowledge Gap Identification',
+        description:
+          'Flags potential knowledge gaps in the data, allowing for more focused and efficient research and analysis.',
+      },
+      {
+        title: 'Tailored Investment Memos',
+        description:
+          'Generates custom investment memos based on firm-specific investment theses, streamlining the diligence reporting process.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Seedly Dashboard',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Revolutionizing Investment Analysis</h3>
+       Empower your financial decisions with AI-driven insights.
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget 2 **************** -->
+  <Content
+    items={[
+      {
+        title: 'Seamless Workflow Integration',
+        description:
+          'Easily integrates with existing tools and platforms, ensuring a smooth transition and enhancing existing workflows.',
+      },
+      {
+        title: 'Data Consistency Checks',
+        description:
+          'Automatically checks for data consistency, ensuring the reliability and accuracy of financial analysis.',
+      },
+      {
+        title: 'Interactive Analysis Environment',
+        description:
+          'Transforms data rooms into interactive environments for dynamic, in-depth financial analysis.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Blueprint Image',
+    }}
+  >
+    <Fragment slot="content">Streamline and enhance your financial analysis with Seedly.</Fragment>
+  </Content>
+
+  <!-- Steps Widget ****************** -->
+  <Steps
+  isReversed
+    title="How Seedly Works for Investment Analysis"
+    items={[
+      {
+        title: 'Step 1: Data Aggregation',
+        description:
+          'Gather and compile data from various public and private sources, including social media, newsletters, and internal databases.',
+        icon: 'tabler:database',
+      },
+      {
+        title: 'Step 2: Intelligent Analysis',
+        description:
+          'Use AI algorithms to analyze data, identify patterns, and flag potential gaps in the information.',
+        icon: 'tabler:brain',
+      },
+      {
+        title: 'Step 3: Customized Reporting',
+        description:
+          'Generate tailored investment memos and reports, aligned with specific investment criteria and theses.',
+        icon: 'tabler:report',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+      alt: 'Steps image',
+    }}
+  />
+
+  <!-- Features2 Widget ************** -->
+  <Features2
+    title="Pain Points Seedly Addresses"
+    subtitle="Solving Key Challenges in VC/PE Analysis"
+    tagline="Solutions"
+    items={[
+      {
+        title: 'Time-Intensive Research',
+        description: 'Dramatically reduces the time required for thorough due diligence.',
+        icon: 'flat-color-icons:gallery',
+      },
+      {
+        title: 'Data Fragmentation',
+        description:
+          'Consolidates fragmented data sources for a comprehensive, unified analysis.',
+        icon: 'flat-color-icons:database',
+      },
+      {
+        title: 'Manual Data Verification',
+        description:
+          'Automates data consistency checks, reducing manual verification workload.',
+        icon: 'flat-color-icons:business-contact',
+      },
+      {
+        title: 'Complex Data Interpretation',
+        description:
+          'Simplifies the interpretation of complex data sets with AI-driven insights.',
+        icon: 'flat-color-icons:approval',
+      },
+      {
+        title: 'Inefficient Reporting',
+        description:
+          'Streamlines the reporting process with automated, tailored investment memos.',
+        icon: 'flat-color-icons:document',
+      },
+      {
+        title: 'Lack of Customization',
+        description:
+          'Offers high levels of customization to align with specific investment strategies.',
+        icon: 'flat-color-icons:template',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+  <Stats
+    stats={[
+      { title: 'Funds Interested', amount: '40' },
+      { title: 'User Interviews', amount: '10' },
+      { title: 'Pilot Users', amount: '40' },
+      { title: 'and counting', amount: '2 Weeks' },
+    ]}
+  />
+</Layout>
