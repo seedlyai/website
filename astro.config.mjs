@@ -29,7 +29,7 @@ export default defineConfig({
   base: '/seedlyai',
   site: SITE.site,
   base: SITE.base,
-  trailingSlash: SITE.trailingSlash ? 'always' : 'never',
+  trailingSlash: 'never',
 
   output: 'static',
 
